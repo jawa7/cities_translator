@@ -1,12 +1,9 @@
 
 mainLanguage: "ka"
-# secondLanguage: "es"
-# thirdLanguage: "en"
+secondLanguage: "en"
+thirdLanguage: ""
 otherLanguages:
   - "ru"
-  # - "pt"
-
-coordinateLocationProperty: "P625"
 
 sparql: "SELECT DISTINCT ?item ?itemLabel WHERE {
       SERVICE wikibase:label { bd:serviceParam wikibase:language \"[AUTO_LANGUAGE]\". }
