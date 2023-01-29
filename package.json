@@ -1,0 +1,21 @@
+{
+  "name": "cities-auto-tr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "main": "nodemon lib/main.js"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "file-saver": "^2.0.5",
+    "js-yaml": "^4.1.0",
+    "json-to-pretty-yaml": "^1.2.2",
+    "node-fetch": "^2.6.6",
+    "nodemon": "^2.0.16",
+    "pino": "^8.8.0",
+    "pino-pretty": "^9.1.1",
+    "wikidata-sdk": "^8.1.1",
+    "worldcities": "^0.1.7"
+  }
+}
